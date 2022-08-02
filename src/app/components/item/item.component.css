@@ -1,0 +1,40 @@
+.row {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.completed {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.completed .total {
+  color: #ccc;
+}
+.title {
+  display: flex;
+  width: 50%;
+}
+.price {
+  display: flex;
+  width: 15%;
+}
+.quantity {
+  display: flex;
+  width: 10%;
+}
+.total {
+  width: 15%;
+  display: flex;
+  color: green;
+}
+.actions {
+  display: flex;
+  width: 10%;
+}
+.actions button {
+  font-family: inherit;
+  border: none;
+  padding: 5px;
+  background-color: crimson;
+  color: #fff;
+}
